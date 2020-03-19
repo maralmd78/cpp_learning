@@ -1,11 +1,8 @@
 #include <iostream>
-#include "Person.h"
-using namespace std;
-using std::cout;
-using std::endl;
+#include "person.h"
 
 int main() {
-    Person maral;
+    person maral;
     maral.firstName="Maral";
     maral.lastName="Mordad";
     maral.age=20;
