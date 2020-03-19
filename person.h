@@ -3,7 +3,7 @@
 //
 // Created by maral on 3/18/2020.
 //
-class Person{
+class person{
 public:
     std::string firstName;
     std::string lastName;
