@@ -10,7 +10,10 @@ private:
     int age;
     std::string socialNumber;
 
+
+
 public:
+
     person()
     {
         firstName = "not assigned";
@@ -20,14 +23,8 @@ public:
 
     }
 
-    person(std::string a,std::string b,int c ,std::string d)
-    {
-        firstName = a;
-        lastName = b;
-        age = c;
-        socialNumber = d;
+    person(std::string a,std::string b,int c ,std::string d) : firstName(a) ,lastName(b),age(c),socialNumber(d){}
 
-    }
 
     person(const person & object)
     {
@@ -39,27 +36,24 @@ public:
 
 
 
-
-
-    std::string set_name()
-    {
-        return lastName;
-
-
-    }
-    int set_age()
-    {
-        return age;
-    }
-/*
-    person(std::string e,std::string f,int g,std::string h)
+    void set_name(std::string e,std::string f)
     {
         firstName = e;
         lastName = f;
+    }
+
+    void set_age(int g)
+    {
         age = g;
+    }
+    void set_social(std::string h)
+    {
         socialNumber = h;
     }
-    */
+    void who_am_i(){
+        std::cout<<"i am a person"<<std::endl;
+    }
+
 };
 #ifndef PART1_PERSON_H
 #define PART1_PERSON_H

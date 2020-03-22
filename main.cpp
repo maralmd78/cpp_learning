@@ -3,8 +3,7 @@
 
 
 int main() {
-person maral("maral","mordad",12,"1111");
-    std::cout <<"\nage::  "<<maral.set_age() << std::endl;
-    std::cout <<"\nname::  "<<maral.set_name() << std::endl;
+    person obj;
+    obj.who_am_i();
     return 0;
 }
