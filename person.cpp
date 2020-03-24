@@ -47,6 +47,7 @@ void person :: set_age(int g)
 void person :: set_social(std::string h)
 {
     socialNumber = h;
+   // return socialNumber;
 }
 void person :: who_am_i(){
     std::cout<<"i am a person"<<std::endl;
