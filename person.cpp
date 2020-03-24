@@ -1,7 +1,7 @@
 //
 // Created by maral on 3/23/2020.
 //
-
+#include <iostream>
 #include "person.h"
 
 person :: person()
