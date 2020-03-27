@@ -24,7 +24,7 @@ public:
     void set_age(int g);
     void set_social(std::string h);
 
-    virtual void who_am_i();
+    void who_am_i();
 
 
 
