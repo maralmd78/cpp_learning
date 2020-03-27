@@ -19,6 +19,9 @@ public:
             student(const student & object);
 
 
+             void who_am_i();
+
+
 };
 
 

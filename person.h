@@ -23,7 +23,8 @@ public:
     void set_name(std::string e,std::string f);
     void set_age(int g);
     void set_social(std::string h);
-    void who_am_i();
+
+    virtual void who_am_i();
 
 
 
