@@ -4,7 +4,7 @@
 #include <iostream>
 #include "person.h"
 
-person :: person()
+Person :: Person()
 {
 
     firstName = "not assigned";
@@ -14,7 +14,7 @@ person :: person()
 
 
 }
-person :: person(std::string a,std::string b,int c ,std::string d )
+Person :: Person(std::string a, std::string b, int c , std::string d )
 {
     firstName = a;
     lastName= b;
@@ -23,7 +23,7 @@ person :: person(std::string a,std::string b,int c ,std::string d )
 
 }
 
-person :: person(const person & object)
+Person :: Person(const Person & object)
 {
     firstName = object.firstName;
     lastName = object.lastName;
@@ -33,24 +33,24 @@ person :: person(const person & object)
 }
 
 
-void person :: set_name(std::string e,std::string f)
+void Person :: set_name(std::string e, std::string f)
 {
     firstName = e;
     lastName = f;
 }
 
-void person :: set_age(int g)
+void Person :: set_age(int g)
 {
     age = g;
 }
 
-void person :: set_social(std::string h)
+void Person :: set_social(std::string h)
 {
     socialNumber = h;
    // return socialNumber;
 }
-void person :: who_am_i(){
-    std::cout<<"i am a person"<<std::endl;
+void Person :: who_am_i(){
+    std::cout<<"i am a Person"<<std::endl;
 }
 
 

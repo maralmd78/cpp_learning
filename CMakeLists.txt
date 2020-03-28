@@ -3,4 +3,4 @@ project(part1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(part1 main.cpp person.cpp student.cpp)
+add_executable(part1 main.cpp person.cpp student.cpp doctor.cpp engineer.cpp)

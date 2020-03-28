@@ -8,7 +8,7 @@
 
 #include <string>
 
-class person {
+class Person {
 public:
     std::string firstName;
     std::string lastName;
@@ -16,9 +16,9 @@ public:
     std::string socialNumber;
 
 
-    person();
-    person(std::string a,std::string b,int c ,std::string d ="not assigned");
-    person(const person & object);
+    Person();
+    Person(std::string a, std::string b, int c , std::string d ="not assigned");
+    Person(const Person & object);
 
     void set_name(std::string e,std::string f);
     void set_age(int g);

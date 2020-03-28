@@ -4,23 +4,23 @@
 #include <iostream>
 #include "student.h"
 
-student ::student():person()
+Student ::Student(): Person()
 {
     grade = 0;
     average = 0;
 }
-student ::student(int a,int b):person()
+Student ::Student(int a, int b): Person()
 {
     grade = a;
     average = b;
 }
 
-student ::student(const student & object):person()
+Student ::Student(const Student & object): Person()
 {
     age = object.age;
     average = object.average;
 }
 
-void student :: who_am_i() {
-    std::cout<<"i am a student"<<std::endl;
+void Student :: who_am_i() {
+    std::cout<<"i am a Student"<<std::endl;
 }

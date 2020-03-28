@@ -7,16 +7,16 @@
 
 #include "person.h"
 
-class student : public person
+class Student : public Person
         {
 public:
             int grade;
             int average;
 
 
-            student();
-            student(int a,int b);
-            student(const student & object);
+            Student();
+            Student(int a, int b);
+            Student(const Student & object);
 
 
              void who_am_i();
